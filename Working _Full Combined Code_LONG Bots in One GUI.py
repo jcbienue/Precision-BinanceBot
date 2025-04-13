@@ -40,14 +40,14 @@ import math
 API_KEY = 'Lc4cWwugpGeO8FY839EuFbsxGoVs8AdPj941BeI4xaEBlVl5bHk3kXvucHllTqTO'
 API_SECRET = 'y7yo9NWcxd3q4s3fSuJGnAr3GJummapaT8iXeg58k6ryzQIPmw1JvXcSdyXBgRtv'
 
-LEVERAGE = 7
+LEVERAGE = 10
 TP_PERCENT = 0.015  # 1.5%
 PULLBACK_PERCENT = 0.001  # 0.1%
 
 MARGIN_CALL_CONFIG = [
-    (0, 1.00), (3.5, 1.00), (3.5, 1.50), (6, 2.25),
-    (6, 6.75), (6, 16.88), (6, 42.19), (7, 105.47),
-    (7, 210.94), (7, 421.88), (7, 759.38), (8, 1366.88), (7, 2460.38)
+    (0, 1.00), (3.5, 1.00), (3.5, 1.30), (7, 2.6),
+    (7, 7.8), (7, 17.), (7, 45), (7, 112),
+    (7, 221), (7, 445)
 ]
 
 # === Base Bot ===
