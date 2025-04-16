@@ -1,5 +1,5 @@
 
-#precision issues fixed__Short__FARTCOIN
+#FARTCOIN_precision issues fixed__Short__
 
 #full updated version of your bot with precision issues fixed using Decimal-based rounding. 
 #I've updated the BaseTradingBot class with the safe adjust_quantity and adjust_price methods, while keeping everything else in your code intact.
