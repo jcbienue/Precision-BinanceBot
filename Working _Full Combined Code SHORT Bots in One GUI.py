@@ -44,16 +44,13 @@ PULLBACK_PERCENT = 0.001  # 0.1%
 
 MARGIN_CALL_CONFIG = [
     (0, 1),
-    (7, 1),
-    (7, 2),
-    (7, 4),
-    (7, 8),
-    (7, 15.),
-    (7, 30),
-    (7, 55),
-    (8, 98),
-    (8, 197),
-    (8, 394),
+    (8, 1),
+    (8, 2),
+    (8, 6),
+    (8, 12),
+    (8, 24.),
+    (8,48),
+    (8, 96),
 ]
 
 # === Base Bot ===
@@ -234,7 +231,7 @@ class DualBotDashboard:
 
         # First Buy Amount Entry
         ttk.Label(root, text="First Buy Amount (USD):").pack()
-        self.first_buy_var = tk.DoubleVar(value=2.1)
+        self.first_buy_var = tk.DoubleVar(value=6)
         ttk.Entry(root, textvariable=self.first_buy_var).pack(pady=5)
 
         # Status label
