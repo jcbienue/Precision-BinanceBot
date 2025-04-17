@@ -1,5 +1,5 @@
 
-#FARTCOIN_precision issues fixed__Short__
+#precision issues fixed__Short__FARTCOIN
 
 #full updated version of your bot with precision issues fixed using Decimal-based rounding. 
 #I've updated the BaseTradingBot class with the safe adjust_quantity and adjust_price methods, while keeping everything else in your code intact.
@@ -23,16 +23,14 @@ PULLBACK_PERCENT = 0.001
 
 MARGIN_CALL_CONFIG = [
     (0, 1),
-    (7, 1),
-    (7, 2),
-    (7, 4),
-    (7, 8),
-    (7, 15.),
-    (7, 30),
-    (7, 55),
-    (8, 98),
-    (8, 197),
-    (8, 394),
+    (8, 1),
+    (8, 2),
+    (8, 6),
+    (8, 12),
+    (8, 24.),
+    (8,48),
+    (8, 96),
+    (8, 192),
 ]
 
 # === Base Bot ===
@@ -192,7 +190,7 @@ class DualBotDashboard:
         self.symbol_menu.pack(pady=5)
 
         ttk.Label(root, text="First Buy Amount (USD):").pack()
-        self.first_buy_var = tk.DoubleVar(value=5.1)
+        self.first_buy_var = tk.DoubleVar(value=4)
         ttk.Entry(root, textvariable=self.first_buy_var).pack(pady=5)
 
         self.status_label = ttk.Label(root, text="Bot Status: IDLE")
