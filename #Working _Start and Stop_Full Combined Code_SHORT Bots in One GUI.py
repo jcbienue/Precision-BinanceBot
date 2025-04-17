@@ -187,7 +187,7 @@ class DualBotDashboard:
         self.symbol_menu.pack(pady=5)
 
         ttk.Label(root, text="First Buy Amount (USD):").pack()
-        self.first_buy_var = tk.DoubleVar(value=3)
+        self.first_buy_var = tk.DoubleVar(value=6)
         ttk.Entry(root, textvariable=self.first_buy_var).pack(pady=5)
 
         self.status_label = ttk.Label(root, text="Bot Status: IDLE")
