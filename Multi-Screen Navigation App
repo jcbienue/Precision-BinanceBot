@@ -1,0 +1,96 @@
+appinventor.mit.edu
+
+
+Sure! Here's a **step-by-step tutorial** to create a simple **multi-screen navigation app** in **MIT App Inventor**. This example will include two screens: a **Main Menu** and an **About Page**.
+
+---
+
+## **Project: Multi-Screen Navigation App**
+
+### **Goal:**  
+Create an app with two screens. The main screen has a button that opens a second screen ("About"), and the second screen has a button to go back.
+
+---
+
+### **Step 1: Create a New Project**
+1. Go to [appinventor.mit.edu](https://appinventor.mit.edu/)
+2. Click **Create Apps** and log in.
+3. Click **Start new project**, name it `MultiScreenApp`.
+
+---
+
+### **Step 2: Design Screen1 (Main Screen)**
+
+1. **Rename Screen1** (optional, but good practice): Keep it as `Screen1`.
+2. Drag and drop a **Label** and name it:  
+   - **Text**: “Welcome to My App”
+   - **Font Size**: 25
+   - **Text Alignment**: Center
+3. Drag a **Button** below the label:
+   - **Text**: “Go to About Page”
+   - Rename it: `btnGoToAbout`
+
+---
+
+### **Step 3: Add a Second Screen**
+1. Click **“Add Screen”** at the top of the interface.
+2. Name it `Screen2`.
+
+---
+
+### **Step 4: Design Screen2 (About Page)**
+1. Drag a **Label**:
+   - **Text**: “This is the About Page.”
+   - **Font Size**: 20
+   - **Text Alignment**: Center
+2. Drag a **Button**:
+   - **Text**: “Back to Home”
+   - Rename it: `btnBackHome`
+
+---
+
+### **Step 5: Add Blocks to Screen1**
+1. Go to the **Blocks** tab in `Screen1`.
+2. Click on the button (`btnGoToAbout`) and drag the **when btnGoToAbout.Click** block.
+3. Add the block:
+   - `open another screen` (found under **Control**).
+   - Text block with `"Screen2"` (found under **Text**).
+
+```blocks
+when btnGoToAbout.Click
+  open another screen screenName "Screen2"
+```
+
+---
+
+### **Step 6: Add Blocks to Screen2**
+1. Go to the **Blocks** tab in `Screen2`.
+2. Click on the button (`btnBackHome`) and drag the **when btnBackHome.Click** block.
+3. Add the block:
+   - `close screen` (under **Control**).
+
+```blocks
+when btnBackHome.Click
+  close screen
+```
+
+> This will return the user to the previous screen (Screen1).
+
+---
+
+### **Step 7: Test Your App**
+1. Use the **AI2 Companion App** on your Android device or emulator.
+2. Scan the QR code to test.
+3. Click the “Go to About Page” button — it should take you to Screen2.
+4. Click “Back to Home” — it should return to Screen1.
+
+---
+
+### **Optional Enhancements**
+- Add more screens (e.g., Help, Settings).
+- Pass data between screens.
+- Use screen transitions for better UX.
+
+---
+
+Would you like a downloadable `.aia` file for this project or want to add more screens and functionality?
