@@ -5,7 +5,10 @@
 
 
 
-
+# Configuration
+LEVERAGE = 10
+FIRST_SELL_AMOUNT = 6.  # Base amount in USD (sell short)
+TAKE_PROFIT_PERCENTAGE = 0.015  # 1.5% profit target
 MARGIN_CALL_CONFIG = [
     (0, 1),
     (8, 1),
@@ -15,6 +18,7 @@ MARGIN_CALL_CONFIG = [
     (8, 30),
     (8,60),
     (8, 120),
+    (8, 240),
 
 
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
