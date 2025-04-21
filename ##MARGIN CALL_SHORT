@@ -4,6 +4,22 @@
 
 
 
+
+
+MARGIN_CALL_CONFIG = [
+    (0, 1),
+    (8, 1),
+    (8, 2),
+    (8, 6),
+    (8, 15),
+    (8, 30),
+    (8,60),
+    (8, 120),
+
+
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+
 # Configuration
 LEVERAGE = 10
 FIRST_SELL_AMOUNT = 4.  # Base amount in USD (sell short)
