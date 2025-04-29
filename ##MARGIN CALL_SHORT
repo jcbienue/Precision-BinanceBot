@@ -11,9 +11,23 @@
 
 
 
+# First Buy amount is $4
+# Configuration
+LEVERAGE = 10
+FIRST_SELL_AMOUNT = 4  # Base amount in USD (sell short)
+TAKE_PROFIT_PERCENTAGE = 0.015  # 1.5% profit target
+MARGIN_CALL_CONFIG = [
+    (0, 1),
+    (8, 1),
+    (8, 2.8),
+    (8, 7),
+    (8, 17),
+    (8, 35),
+    (8,77),
+    (8, 154),
 
-
-
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 # First Buy amount is $4
 # Configuration
 LEVERAGE = 10
@@ -34,10 +48,10 @@ MARGIN_CALL_CONFIG = [
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 
-# First Buy amount is $4
+# First Buy amount is $3
 # Configuration
 LEVERAGE = 10
-FIRST_SELL_AMOUNT = 4  # Base amount in USD (sell short)
+FIRST_SELL_AMOUNT = 3  # Base amount in USD (sell short)
 TAKE_PROFIT_PERCENTAGE = 0.015  # 1.5% profit target
 MARGIN_CALL_CONFIG = [
     (0, 1),
