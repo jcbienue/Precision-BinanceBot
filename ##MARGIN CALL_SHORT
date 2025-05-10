@@ -8,10 +8,10 @@
 
 
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
-BEst for now
+BEST FOR NOW---70% DIP
 
 
-🟢# First Buy amount is $50 ----60%
+🟢# First Buy amount is $30 ----70%
 # Configuration
 LEVERAGE = 10
 FIRST_SELL_AMOUNT = 11  # Base amount in USD (sell short)
@@ -26,11 +26,12 @@ MARGIN_CALL_CONFIG = [
     (8, 51.7),
     (8, 103.5),
     (8, 206),
+    (8, 413),
 ]
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 
-🟢# First Buy amount is $50 ----60%
+🟢# First Buy amount is $30 ----60%
 # Configuration
 LEVERAGE = 10
 FIRST_SELL_AMOUNT = 11  # Base amount in USD (sell short)
@@ -47,7 +48,7 @@ MARGIN_CALL_CONFIG = [
     (8, 210),
 ]
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
-🟢# First Buy amount is $4 ----60%
+🟢# First Buy amount is $3 ----60%
 # Configuration
 LEVERAGE = 10
 FIRST_SELL_AMOUNT = 11  # Base amount in USD (sell short)
