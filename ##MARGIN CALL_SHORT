@@ -4,6 +4,32 @@
 
 
 
+
+
+
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+BEst for now
+
+
+🟢# First Buy amount is $50 ----60%
+# Configuration
+LEVERAGE = 10
+FIRST_SELL_AMOUNT = 11  # Base amount in USD (sell short)
+TAKE_PROFIT_PERCENTAGE = 0.015  # 1.5% profit target
+MARGIN_CALL_CONFIG = [
+    (0, 1),
+    (7, 1),
+    (7, 2.8),
+    (8, 5.6),
+    (8, 11.2),
+    (8, 23.5),
+    (8, 51.7),
+    (8, 103.5),
+    (8, 206),
+]
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
 🟢# First Buy amount is $50 ----60%
 # Configuration
 LEVERAGE = 10
