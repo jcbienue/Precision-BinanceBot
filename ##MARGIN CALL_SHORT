@@ -31,7 +31,7 @@ MARGIN_CALL_CONFIG = [
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 
-🟢# First Buy amount is $30 ----60%
+🟢# First Buy amount is $30 ----64%
 # Configuration
 LEVERAGE = 10
 FIRST_SELL_AMOUNT = 11  # Base amount in USD (sell short)
@@ -39,14 +39,15 @@ TAKE_PROFIT_PERCENTAGE = 0.015  # 1.5% profit target
 MARGIN_CALL_CONFIG = [
     (0, 1),
     (8, 1),
-    (8, 2.5),
-    (8, 6.25),
-    (8, 12.50),
-    (8, 26.25),
-    (8, 52.5),
-    (8, 105.),
-    (8, 210),
+    (8, 2.8),
+    (8, 7.56),
+    (8, 15.12),
+    (8, 31.75),
+    (8, 69.85),
+    (8, 139.7),
+    (8, 279),
 ]
+
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 🟢# First Buy amount is $3 ----60%
 # Configuration
