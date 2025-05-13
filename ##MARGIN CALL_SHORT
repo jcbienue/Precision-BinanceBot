@@ -8,30 +8,11 @@
 
 
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
-BEST FOR NOW---70% DIP
 
-
-🟢# First Buy amount is $30 ----70%
-# Configuration
-LEVERAGE = 10
-FIRST_SELL_AMOUNT = 11  # Base amount in USD (sell short)
-TAKE_PROFIT_PERCENTAGE = 0.015  # 1.5% profit target
-MARGIN_CALL_CONFIG = [
-    (0, 1),
-    (7, 1),
-    (7, 2.8),
-    (8, 5.6),
-    (8, 11.2),
-    (8, 23.5),
-    (8, 51.7),
-    (8, 103.5),
-    (8, 206),
-    (8, 413),
-]
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 
-🟢# First Buy amount is $30 ----64%
+🟢# First Buy amount is $20 ----64%
 # Configuration
 LEVERAGE = 10
 FIRST_SELL_AMOUNT = 11  # Base amount in USD (sell short)
@@ -39,17 +20,42 @@ TAKE_PROFIT_PERCENTAGE = 0.015  # 1.5% profit target
 MARGIN_CALL_CONFIG = [
     (0, 1),
     (8, 1),
-    (8, 2.8),
-    (8, 7.56),
-    (8, 15.12),
-    (8, 31.75),
-    (8, 69.85),
-    (8, 139.7),
+    (8, 3),
+    (8, 7),
+    (8, 15.),
+    (8, 31.),
+    (8, 69.),
+    (8, 139.),
     (8, 279),
 ]
 
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
-🟢# First Buy amount is $3 ----60%
+BEST FOR NOW---70% DIP
+
+
+🟢# First Buy amount is $20 ----72% ---16,600
+# Configuration
+LEVERAGE = 10
+FIRST_SELL_AMOUNT = 11  # Base amount in USD (sell short)
+TAKE_PROFIT_PERCENTAGE = 0.015  # 1.5% profit target
+MARGIN_CALL_CONFIG = [
+    (0, 1),
+    (8, 1),
+    (8, 3),
+    (8, 5),
+    (8, 11),
+    (8, 23),
+    (8, 51),
+    (8, 103),
+    (8, 206),
+    (8, 413),
+]
+
+
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+🟢# First Buy amount is $2 ----60%
 # Configuration
 LEVERAGE = 10
 FIRST_SELL_AMOUNT = 11  # Base amount in USD (sell short)
@@ -57,9 +63,9 @@ TAKE_PROFIT_PERCENTAGE = 0.015  # 1.5% profit target
 MARGIN_CALL_CONFIG = [
     (0, 1),
     (7, 1),
-    (7, 2.8),
-    (7, 5.6),
-    (7, 11.20),
+    (7, 2),
+    (7, 5),
+    (7, 11.),
     (8, 25.),
     (8, 56.),
     (8, 113),
@@ -68,21 +74,22 @@ MARGIN_CALL_CONFIG = [
 
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
-🟢 # First Buy amount is $4 ----60%
+🟢 # First Buy amount is $2 ----65% -- 10,500 USDT
 # Configuration
 LEVERAGE = 10
-FIRST_SELL_AMOUNT = 11  # Base amount in USD (sell short)
+FIRST_SELL_AMOUNT = 2  # Base amount in USD (sell short)
 TAKE_PROFIT_PERCENTAGE = 0.015  # 1.5% profit target
 MARGIN_CALL_CONFIG = [
     (0, 1),
-    (7, 1),
-    (7, 2.8),
-    (7, 5.6),
-    (7, 11.20),
-    (8, 23.52),
-    (8, 51.74),
-    (8, 103.5),
-    (8, 206),
+    (9, 1),
+    (8, 3),
+    (8, 7),
+    (8, 15),
+    (8, 31),
+    (8, 70),
+    (8, 139),
+    (8, 279),
+   
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 
 
@@ -96,11 +103,11 @@ TAKE_PROFIT_PERCENTAGE = 0.015  # 1.5% profit target
 MARGIN_CALL_CONFIG = [
     (0, 1),
     (9, 1),
-    (8, 2.8),
-    (8, 7.56),
-    (8, 15.12),
-    (8, 31.75),
-    (8, 69.85),
+    (8, 3),
+    (8, 8),
+    (8, 15.),
+    (8, 31.),
+    (8, 70),
     (8, 139),
     (8, 279),
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
@@ -115,7 +122,7 @@ TAKE_PROFIT_PERCENTAGE = 0.015  # 1.5% profit target
 MARGIN_CALL_CONFIG = [
     (0, 1),
     (9, 1),
-    (8, 2.8),
+    (8, 3),
     (8, 7),
     (8, 17),
     (8, 35),
@@ -124,7 +131,7 @@ MARGIN_CALL_CONFIG = [
 
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
-# First Buy amount is $4
+# First Buy amount is $2
 # Configuration
 LEVERAGE = 10
 FIRST_SELL_AMOUNT = 4  # Base amount in USD (sell short)
@@ -132,12 +139,12 @@ TAKE_PROFIT_PERCENTAGE = 0.015  # 1.5% profit target
 MARGIN_CALL_CONFIG = [
     (0, 1),
     (9, 1),
-    (8, 2.5),
-    (8, 6.75),
-    (8, 13.5),
-    (8, 28.35),
-    (8,62.37),
-    (8, 124.74),
+    (8, 3),
+    (8, 7),
+    (8, 13),
+    (8, 28),
+    (8,62),
+    (8, 124),
     (8, 249),
 
 
