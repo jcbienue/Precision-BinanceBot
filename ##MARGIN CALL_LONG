@@ -28,11 +28,28 @@ FBA =$5 = $6000  INVESTED , $6 = $ HIGHEST --32%; 7TH CALL == $50 $60,
 
 [2]BULL RUN STRATEGY WITH MACD WEEKLY CROSS.
 ** MAINLY FOR FARTCOIN  BULL
-FBA =$10 =  $14,400,HIGHEST --28%; 7TH CALL == $200 =  $14,400  INVESTED
+FBA =$10 =  $18,000   ,HIGHEST --28%; 8TH CALL == $100 =  $18,000  INVESTED
 
 **MARGIN_CALL_CONFIG = [
     (0, 1.00), (3, 0.5), (5.5, 1.25), (5, 2.5),
-    (7.5,7), (7,17.5), 
+    (7.5, 7), (7, 17), (7, 43),(7, 105),
+
+
+
+
+
+
+
+
+[3]BULL RUN STRATEGY WITH MACD WEEKLY CROSS.
+** MAINLY FOR FARTCOIN  BULL
+FBA =$10 =  $15,000   ,HIGHEST --28%; 8TH CALL == $100 =  $15,000  INVESTED
+
+**MARGIN_CALL_CONFIG = [
+    (0, 1.00), (3, 0.5), (5.5, 1), (5, 2),
+    (7.5, 5.6), (7, 14), (7, 35),(7, 84),
+
+
 
 
 
