@@ -5,20 +5,22 @@
 
 
 
-BEST FOR NOW---37% DIP
+BEST FOR NOW---48% DIP
 
 
-🟢# First Buy amount is $30 ----37% ---8,600
+🟢# First Buy amount is $80 ----48% ---10,600
 # Configuration
 LEVERAGE = 10
-FIRST_SELL_AMOUNT = 3  # Base amount in USD (sell short)
+FIRST_SELL_AMOUNT = 8  # Base amount in USD (sell short)
 TAKE_PROFIT_PERCENTAGE = 0.015  # 1.5% profit target
 MARGIN_CALL_CONFIG = [
     (0, 1),
-    (7, 1),
-    (8, 2),
-    (8, 7),
-    (15, 15),
+    (8, 1),
+    (8, 3),
+    (8, 7.5),
+    (8, 15),
+    (8, 32),
+    (8, 70),
 
   
 ]
