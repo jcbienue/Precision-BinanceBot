@@ -5,6 +5,40 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIRST_SELL_AMOUNT = 30  # Base amount in USD (sell short)
+
+$23,500
+TAKE_PROFIT_PERCENTAGE = 0.015  # 1.5% profit target
+MARGIN_CALL_CONFIG = [
+    (0, 1),
+    (7, 3),
+    (7, 7),
+    (7, 17),
+    (7, 37),**** $11000
+    (7, 77),
+    
+
+  
+]
+    
+
+
+
+
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 BEST FOR NOW---48% DIP
 
 
